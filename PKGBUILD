@@ -7,10 +7,10 @@
 # This build script, as well as tools to automatically fetch updates, lives in creative-toolkit
 # https://github.com/paperdave/creative-toolkit/blob/main/src/fusion-studio-aur
 
-pkgver=18.1.3
+pkgver=18.6.6
 # $_downloadid can be grabbed off of https://www.blackmagicdesign.com/api/support/us/downloads.json
-_downloadid=1ed4da77afcd4143bd2df9076a913dc3
-sha256sums=(28237af4a24fa0ac46b1a5d33893f9b98b1aacbfdf5d2a8f307c120cfbe0b668)
+_downloadid=86f8812c33e84298907c3d7c9ec5b7d8
+sha256sums=(77d49065e297b5ee9804dfa566d0955899b4d6022f7c259c9b4adbe541bc6d29)
 
 #
 pkgname=(fusion-studio fusion-render-node)
