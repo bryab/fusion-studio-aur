@@ -25,7 +25,7 @@ const pkgver = pkgbuildLines
   ?.split('=')[1]
   .trim();
 
-const latest = downloads.find((d: any) => d.releaseNotesTitle.startsWith('Fusion Studio'));
+const latest = downloads.find((d: any) => d.releaseNotesTitle.startsWith('Fusion Studio') && !d.releaseNotesTitle.includes("Beta"));
 
 const r = latest.urls.Linux[0];
 const newVersion = `${r.major}.${r.minor}.${r.releaseNum}`.replace(/\.0\b/g, '');
